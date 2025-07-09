@@ -31,3 +31,21 @@ The model was trained for **15 epochs**, achieving:
 
 1. Open the notebook in Jupyter or Google Colab
 2. Make sure you have the necessary libraries: tensorflow numpy matplotlib
+
+
+## Planned Improvements
+
+This project will be improved further to better handle **overfitting** and increase the model's **generalization performance**. The following enhancements are planned:
+
+- **Applying data augmentation**  
+  Introduce random transformations such as flipping, rotation, and zooming to increase dataset variability.
+
+- **Introducing early stopping and learning rate scheduling**  
+  Halt training when validation loss stops improving, and dynamically adjust the learning rate for stability.
+
+- **Experimenting with dropout rates**  
+  Fine-tune dropout layers to reduce reliance on specific neurons and improve regularization.
+
+- **Exploring transfer learning with pretrained CNN models**  
+  Use powerful architectures like **ResNet**, **MobileNet**, or **EfficientNet** for improved feature extraction on limited data.
+
